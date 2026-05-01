@@ -21,6 +21,8 @@ from sklearn.cluster import KMeans
 from sklearn.impute import SimpleImputer
 from sklearn.metrics import silhouette_score
 from world_development_model import WorldDevelopmentClusteringModel
+import streamlit as st
+st.cache_data.clear()
 
 print("=" * 80)
 print(" WORLD DEVELOPMENT CLUSTERING MODEL - TRAINING SCRIPT")
