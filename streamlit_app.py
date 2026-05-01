@@ -303,6 +303,7 @@ try:
 except Exception:
     st.info('Silhouette could not be computed for the current dataset')
 
+
 # End Insights section
 
 # ============================================================================
