@@ -156,7 +156,7 @@ print("-" * 80)
 
 # Initialize and train the model class
 model = WorldDevelopmentClusteringModel(n_clusters=3, random_state=42)
-model.fit(df_clean)
+model.fit(df_model)
 
 # Save to disk
 model.save('world_development_kmeans.pkl')
